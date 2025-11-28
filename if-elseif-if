@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 9;
+
+    if (a >= 2 && a <= 10) {
+        cout << "SHIFT-1" << endl;
+    }
+    else if (a > 10 && a <= 18) {
+        cout << "SHIFT-2" << endl;
+    }
+    else if (a > 18 && a <= 24) {
+        cout << "SHIFT-3" << endl;
+    }
+    else {
+        cout << "Invalid value" << endl;
+    }
+
+    return 0;
+}
